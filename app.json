@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "FrigoStock",
+    "slug": "FrigoStock",
+    "ios": {
+      "bundleIdentifier": "fr.chris_tophe.frigostock",
+      "buildNumber": "0.1.0"
+    },
+    "android": {
+      "package": "fr.chris_tophe.frigostock",
+      "versionCode": 1
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
